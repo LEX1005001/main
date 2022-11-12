@@ -1,5 +1,7 @@
-text=input("Введите текст: ")
-sim=input("Введите символ: ")
-count=0
-t=text
-print("Cимволов в тексте: ",t.count(sim))
+s = input("Введите текст: ")
+l = len(s)
+for i in range(l,2):
+    if s[i] != s[-1-i]: 
+       print("'это палиндром")
+else:
+    print("это не палиндром")

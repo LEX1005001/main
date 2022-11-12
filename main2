@@ -1,7 +1,4 @@
-s = input("Введите текст: ")
-l = len(s)
-for i in range(l,2):
-    if s[i] != s[-1-i]: 
-       print("'это палиндром")
-else:
-    print("это не палиндром")
+text=input("Введите тескт: ")
+t=text
+n=(t.count("."))
+print("Колличество предложений: ",n)

@@ -1,4 +1,3 @@
-text=input("Введите тескт: ")
-t=text
-n=(t.count("."))
-print("Колличество предложений: ",n)
+text=input("Введите текст: ")
+n=text[::-1]
+print(n)

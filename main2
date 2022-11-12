@@ -1,2 +1,5 @@
 text=input("Введите текст: ")
-print(text)
+sim=input("Введите символ: ")
+count=0
+t=text
+print("Cимволов в тексте: ",t.count(sim))

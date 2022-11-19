@@ -1,3 +1,0 @@
-text=input("Введите текст: ")
-n=text[::-1]
-print(n)
